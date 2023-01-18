@@ -6,5 +6,8 @@ public class Tc_SignUpAsAStudentWithValidCredentials extends SignUpSteps{
        clickSignUpButton();
        clickStudentCreateAccountButton();
        selectTitleDropdown();
+        enterFirstName();
+        enterLastName();
+       selectAddressDropdown();
     }
 }
